@@ -6,9 +6,9 @@ import { Skills } from './Skills'
 const Technologies = () => (
   <Section id="skills">
     <SectionDivider divider />
-    <SectionTitle>Skills</SectionTitle>
+    <SectionTitle>Habilidades</SectionTitle>
     <SectionText>
-    Tenho experiência nas linguagens, data base, e softwares.
+    Tenho experiência em:
     </SectionText>
     <List>
       {Skills.map((Skill) => (

@@ -1,8 +1,10 @@
-import Link from 'next/link';
 import React from 'react';
+import Header from '../Header/Header';
 
 const Contato = ()=> (
-    <ContainerContato>
-        
-    </ContainerContato>
+ <>
+    <Header></Header>
+ </>
 );
+
+export default Contato;

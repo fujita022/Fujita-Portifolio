@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { Container, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const Header = () => (
@@ -12,7 +12,7 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link href="#sobremim" legacyBehavior>
+        <Link href="/sobremim">
           <NavLink>Sobre mim</NavLink>
         </Link>
       </li>
@@ -22,10 +22,10 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <a href="#contato">
+        <Link href="/contato">
           <NavLink>Contato</NavLink>
-        </a>
-      </li>
+        </Link>
+        </li>
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/fujita022" target='blank'>

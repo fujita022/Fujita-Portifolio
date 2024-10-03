@@ -16,7 +16,7 @@ const Hero = (props) => (
         </SectionText>
         <Button onClick={(e) => {
           e.preventDefault();
-          window.location.href = '../../../assets/files/fujita.pdf';
+          window.location.href = '/files/fujita.pdf';
         }}>Acesse aqui</Button>
       </LeftSection>
     </Section>

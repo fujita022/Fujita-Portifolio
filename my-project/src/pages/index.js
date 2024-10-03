@@ -2,9 +2,9 @@ import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation'
 import Hero from '../components/Hero/Hero';
 import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
-import Contatos from '../components/Contato/Contato'
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import Contato from '../components/Contato/Contato';
 
 const Home = () => {
   return (
@@ -15,6 +15,7 @@ const Home = () => {
       </Section>
       <Projects />
       <Technologies />
+      <Contato />
     </Layout>
   );
 };

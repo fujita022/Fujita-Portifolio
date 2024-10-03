@@ -8,7 +8,7 @@ const Contato = () => {
          <SectionTitle>Entre em contato comigo!</SectionTitle>
          <Pulsante className='p-20 m-10'>
             <div className="contato max-w-2xl mx-auto p-10 bg-gray-800 rounded-lg mt-8 shadow-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-blue-500/50">
-               <h2 className="text-3xl font-bold mb-6 text-white text-center">Entre em contato conosco!</h2>
+               <h2 className="text-3xl font-bold mb-6 text-white text-center">Me mande uma mensagem!</h2>
                <form>
                   <div className="mb-4">
                      <input

@@ -19,14 +19,10 @@ const Contato = () => {
       }));
    };
 
-
    const handleSubmit = (e) => {
       e.preventDefault(); 
       console.log(formData); 
-      
-
       setSuccessMessage('Mensagem enviada com sucesso!');
-
       setFormData({
          nome: '',
          email: '',
@@ -37,9 +33,9 @@ const Contato = () => {
    return (
       <Section id='contato'>
          <SectionTitle>Entre em contato comigo!</SectionTitle>
-         <Pulsante className='p-20 m-10'>
-            <div className="contato max-w-2xl mx-auto p-10 bg-gray-800 rounded-lg mt-8 shadow-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-blue-500/50 active:shadow-xl active:shadow-blue-500/50">
-               <h2 className="text-3xl font-bold mb-6 text-white text-center">Me mande uma mensagem!</h2>
+         <Pulsante className='p-4 md:p-6 lg:p-8 m-4 md:m-6'>
+            <div className="contato max-w-md md:max-w-2xl mx-auto p-6 bg-gray-800 rounded-lg mt-8 shadow-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-blue-500/50 active:shadow-xl active:shadow-blue-500/50">
+               <h2 className="text-2xl md:text-3xl font-bold mb-6 text-white text-center">Me mande uma mensagem!</h2>
                
                {/* Mensagem de sucesso */}
                {successMessage && (

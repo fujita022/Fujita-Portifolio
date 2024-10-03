@@ -10,11 +10,10 @@ export const Container = styled.div`
   padding-top: 2rem;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 60px);
-    grid-column-gap: 0.5rem;
-    grid-row-gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
 `;
 export const Div1 = styled.div`
@@ -52,65 +51,38 @@ export const NavLink = styled.a`
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
+  position: relative;
+  width: 200px;
+  height: 200px;
+
   &:hover {
-    color: #fff;
+    color: #6d8484;
     opacity: 1;
     cursor: pointer;
+    transform: scale(2.1);
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 4px;
+    background-color: #829595; 
+    transform: scaleX(0); 
+    transform-origin: left; 
+    transition: transform 0.5s ease; 
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.5rem;
-    font-size: 1.7rem;
+    padding: 1.4rem;
+    font-size: 1.6rem;
   }
 `;
-
-/// DropDown Contact
-export const ContactDropDown = styled.button`
-  border: none;
-  display: flex;
-  position: relative;
-  background: none;
-  font-size: 1.7rem;
-
-  line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
-  cursor: pointer;
-  transition: 0.3s ease;
-
-  &:focus {
-    outline: none;
-  }
-  &:hover {
-    color: #fff;
-  }
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.4rem 0;
-  }
-  @media ${(props) => props.theme.breakpoints.md} {
-    padding: 0;
-  }
-`;
-
-export const NavProductsIcon = styled(IoIosArrowDropdown)`
-  margin-left: 8px;
-  display: flex;
-  align-self: center;
-  transition: 0.3s ease;
-  opacity: ${({ isOpen }) => (isOpen ? '1' : '.75')};
-  transform: ${({ isOpen }) => (isOpen ? 'scaleY(-1)' : 'scaleY(1)')};
-
-  &:hover {
-    opacity: 1;
-  }
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    margin: 2px 0 0 2px;
-    width: 15px;
-  }
-`;
-
-
-// Social Icons 
 
 export const SocialIcons = styled.a`
 transition: 0.3s ease;
@@ -118,9 +90,8 @@ color: white;
 border-radius: 50px;
   padding: 8px;
 &:hover {
-    background-color: #212d45;
+    background-color: #6d8484;
     transform: scale(1.2);
     cursor: pointer;
-    
   }
 `

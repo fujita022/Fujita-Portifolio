@@ -18,7 +18,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>This site was developed by Erick Fujita  in {year}.</Slogan>
+          <Slogan>This site was developed by <span className='text-4xl text-blue-900 font-semibold'>Erick Fujita</span>  in {year}.</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/fujita022" target='blank'>

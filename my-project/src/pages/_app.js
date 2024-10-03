@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Porifólio Fujita</title>
+        <title>Portifólio Fujita</title>
       </Head>
       <Theme>
         <Component {...pageProps} />

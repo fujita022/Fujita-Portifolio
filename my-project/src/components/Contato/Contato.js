@@ -24,8 +24,11 @@ const Contato = () => {
    const handleSubmit = (e) => {
       e.preventDefault();
 
-      if (formData.name.toLowerCase() === 'lu casalli') {
-         setPersonalMessage('Oi amor');
+      if (formData.name.toLowerCase() === 'bruno kraker') {
+         setPersonalMessage('Fala macaco');
+      if (formData.name.toLowerCase() === 'duda kraker') {
+         setPersonalMessage('Fala macaca');
+      }
       } else {
          setPersonalMessage(''); 
       }

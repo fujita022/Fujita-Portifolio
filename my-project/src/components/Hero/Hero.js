@@ -4,9 +4,8 @@ import Button from '../../styles/GlobalComponents/Button';
 import { useTypewriter } from 'react-simple-typewriter';
 
 const Hero = (props) => {
-  // Usa o useTypewriter aqui
   const [text] = useTypewriter({
-      words: ['Fullstack Developer.', "Marketing Manager", "Student of Cloud"], 
+      words: ['Developer.', "Marketing Manager.", "Student of Software Engineer.", 'Machine Learning','React.js , Node.Js , Express.js and axios','Python', 'Tailwind'], 
       loop: true,                        
   });
 

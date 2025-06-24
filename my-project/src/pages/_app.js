@@ -7,6 +7,8 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>Eu Fujita</title>
+        {/* Favicon */}
+        <link rel="icon" href="/images/logotipp.png" />
       </Head>
       <Theme>
         <Component {...pageProps} />

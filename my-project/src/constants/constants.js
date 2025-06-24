@@ -18,13 +18,21 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Site',
-    description: "Site utilizando props e react.",
+    title: 'Site Crie Videos',
+    description: "Site utilizando props, react, praticando flex/grid em css",
     image: '/images/crievideos.png',
     tags: ['HTML', 'CSS', 'React'],
     source: 'https://github.com/fujita022/CheckPoint-2semestre-WebDev',
-    visit: 'https://vercel.com/fujita022s-projects/check-point-2semestre-web-dev-2gle',
+    visit: 'https://check-point-2semestre-web-dev-2gle.vercel.app/',
     id: 2,
+  },
+    {
+    title: 'Startup Ótica Pessoal',
+    description: "Site utilizando react, tailwind, API fetch (req/rest) para IA (Fujis IA) e email.js",
+    image: '/images/smartvision.png',
+    tags: ['HTML', 'CSS', 'React','APIs'],
+    visit: 'https://otica-fujita-project.vercel.app/',
+    id: 3,
   },
 ];
 

@@ -26,7 +26,7 @@ const Hero = () => {
           </SectionText>
           <Button onClick={(e) => {
             e.preventDefault();
-            window.location.href = '/files/fujita.pdf';
+            window.location.href = '/files/Erick Moreira Fujita - currículo.pdf';
           }}>Acesse aqui</Button>
         </div>
       </Section>

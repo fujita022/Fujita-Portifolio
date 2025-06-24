@@ -1,5 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
-export default (req, res) => {
-  res.status(200).json({ name: 'Erick Fujita' })
-}
+const handler = (req, res) => {
+  res.status(200).json({ name: 'Erick Fujita' });
+};
+
+export default handler;

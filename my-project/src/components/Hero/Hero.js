@@ -1,9 +1,9 @@
 import React from 'react';
-import { Section, SectionText, SectionTitle, Link } from '../../styles/GlobalComponents';
+import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';  // Removido Link
 import Button from '../../styles/GlobalComponents/Button';
 import { useTypewriter } from 'react-simple-typewriter';
 
-const Hero = (props) => {
+const Hero = () => {
   const [text] = useTypewriter({
       words: ['Developer.', "Marketing Manager.", "Student of Software Engineer.", 'Machine Learning','React.js , Node.Js , Express.js and axios','Python', 'Tailwind', 'Next.js', 'JavaScript', 'HTML', 'CSS','Docker', 'GitHub', 'GitLab', 'Figma', 'PostgreSQL', 'MongoDB', 'MySQL', 'API Rest', 'API Fetch', 'API Axios', 'API Node.js', 'Data Analytics', 'Data Science', 'Data Engineer', 'Data Visualization', 'Data Analysis', 'Data Mining', 'Data Warehousing', 'Data Governance', 'Data Management'], 
       loop: true,                        

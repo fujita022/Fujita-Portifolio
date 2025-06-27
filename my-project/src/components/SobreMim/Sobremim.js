@@ -22,7 +22,7 @@ const Sobremim = () => (
           </span>, que durante dois anos me dediquei a estudar e aprimorar minhas habilidades nessa área, explorando diferentes estratégias e ferramentas que me permitiram entender melhor como conectar marcas e consumidores de forma eficaz e estratégica onde colaborei pela construtora <a href="https://eztec.com.br" target="_blank" className='text-red-500 font-semibold'> Eztec</a>.
         </p>
         <p className="text-gray-300 text-xl md:text-2xl lg:text-4xl mb-4 text-left leading-relaxed">
-          Atualmente estou fazendo o papel de Data Analytics pelo             <a href='https://www.google.com/search?q=o+que+e+marketing+digital&oq=o+que+e+marketing+digital&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIKCAYQABiABBiiBDIGCAcQRRhA0gEIMjk3M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8'
+          Atualmente estou fazendo o papel de Data Analytics pelo             <a href='https://www.itau.com.br/'
    className='text-[rgb(242,133,0)] font-semibold hover:scale-120 transition-transform duration-300'
    target='_blank'>Itáu Unibanco</a>, onde pude desenvolver minha analise crítica, trazendo insights e opiniões que foram importante para tomadas de decisões relevantes para o negócio. Sempre estou buscando por inovações e tecnologias que podem tornar o nosso tempo mais valioso para entregar o melhor com qualidade.</p>
       </div>

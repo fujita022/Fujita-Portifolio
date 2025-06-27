@@ -6,7 +6,7 @@ const Sobremim = () => (
   <Section id='sobremim'>
     <SectionTitle>Sobre mim</SectionTitle>
     <SobreQuery>
-      <div className="m-6 md:m-10 lg:m-20 mx-auto px-4 md:px-6 lg:px-8 py-6 bg-gray-800 rounded-lg shadow-lg transition-transform duration-2000 transform hover:scale-105 animate-pulse">
+      <div className="m-6 md:m-10 lg:m-20 mx-auto px-4 md:px-6 lg:px-8 py-6 bg-gray-800 rounded-lg shadow-lg transition-transform duration-2000 transform hover:scale-105 animate ">
         <p className="text-gray-300 text-xl md:text-2xl lg:text-4xl mb-4 text-left leading-relaxed">
           Fala pessoal! Tudo bem? Meu nome é Erick, tenho e para você me conhecer um pouquinho melhor, vamos lá! Desde cedo, sempre fui fascinado pelo potencial que a inovação e a tecnologia podem trazer para o mundo dos negócios e tenho um objetivo que é ser impactante para a transformação digital e ser referência. Com 14 anos, iniciei minha carreira criando um negócio de
           <a href="https://www.google.com/search?q=o+que+%C3%A9+dropshipping&oq=o+que+%C3%A9+dropshgi&gs_lcrp=EgZjaHJvbWUqCggBEAAYsQMYgAQyBggAEEUYOTIKCAEQABixAxiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIJCAcQABgKGIAEMgkICBAAGAoYgAQyBwgJEAAYgATSAQg0MzU5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" target="_blank" className='text-blue-200'> dropshipping</a>, onde atuei por um ano e meio. Essa experiência me ensinou não apenas sobre vendas e atendimento ao cliente, mas também sobre a importância de se adaptar rapidamente a um mercado em constante mudança.
